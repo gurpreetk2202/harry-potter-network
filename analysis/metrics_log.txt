@@ -1,0 +1,61 @@
+Graph: 37 nodes, 116 edges, undirected
+Density: 0.1742
+Connected components: 2
+Average degree: 6.270
+  separate component: Marcus Flint, Draco Malfoy, Pansy Parkinson, Gregory Goyle, Vincent Crabbe
+Largest component: 32 nodes | diameter 4 | average path length 1.907
+Average clustering coefficient: 0.768
+Louvain (weighted): 5 communities, modularity Q = 0.283
+Modularity if communities = Hogwarts houses: Q = 0.135
+
+Top 10 by degree:
+              Label      house  degree  weighted_degree  betweenness  betweenness_norm
+Harry James Potter Gryffindor      28               83      297.899            0.4729
+    Ronald Weasley Gryffindor      17               51       42.432            0.0674
+  Hermione Granger Gryffindor      15               41       21.929            0.0348
+      Fred Weasley Gryffindor      10               36        2.300            0.0037
+    George Weasley Gryffindor      10               34        2.300            0.0037
+     Ginny Weasley Gryffindor       9               22       10.973            0.0174
+        Katie Bell Gryffindor       9               21        1.250            0.0020
+Neville Longbottom Gryffindor       8               28       11.471            0.0182
+    Alicia Spinnet Gryffindor       8               20        0.000            0.0000
+  Angelina Johnson Gryffindor       8               20        0.000            0.0000
+
+Top 10 by betweenness:
+              Label      house  degree  weighted_degree  betweenness  betweenness_norm
+Harry James Potter Gryffindor      28               83      297.899            0.4729
+    Ronald Weasley Gryffindor      17               51       42.432            0.0674
+    Demelza Robins Gryffindor       3                3       30.000            0.0476
+  Hermione Granger Gryffindor      15               41       21.929            0.0348
+       Dean Thomas Gryffindor       7               19       12.748            0.0202
+   Seamus Finnigan Gryffindor       7               19       12.748            0.0202
+Neville Longbottom Gryffindor       8               28       11.471            0.0182
+     Ginny Weasley Gryffindor       9               22       10.973            0.0174
+      Draco Malfoy  Slytherin       4                6        3.000            0.0048
+        Terry Boot  Ravenclaw       7                7        2.500            0.0040
+
+Communities:
+  0: Harry James Potter (G), Terry Boot (R), Anthony Goldstein (R), Ernie Macmillan (H), Hannah Abbott (H), Justin Finch-Fletchley (H), Susan Bones (H), Percy Weasley (G), Cedric Diggory (H), Cho Chang (R), Colin Creevey (G), Dennis Creevey (G), Padma Patil (R)
+  1: Ronald Weasley (G), Hermione Granger (G), Ginny Weasley (G), Neville Longbottom (G), Dean Thomas (G), Seamus Finnigan (G), Luna Lovegood (R), Lavender Brown (G), Parvati Patil (G), Leanne (H)
+  2: Fred Weasley (G), George Weasley (G), Katie Bell (G), Alicia Spinnet (G), Angelina Johnson (G), Oliver Wood (G), Lee Jordan (G)
+  3: Draco Malfoy (S), Gregory Goyle (S), Pansy Parkinson (S), Vincent Crabbe (S), Marcus Flint (S)
+  4: Demelza Robins (G), Jimmy Peakes (G)
+
+Wrote analysis/centrality_results.csv
+
+=== Insight checks ===
+Harry is linked to 28 of the 36 other characters (78%); share of all betweenness: 66%
+Harry's betweenness is 7.0x the next highest (Ronald Weasley)
+Cross-house edges: 28 of 116; involving Harry: 11
+  Gryffindor: 19 cross-house edges
+  Hufflepuff: 18 cross-house edges
+  Ravenclaw: 19 cross-house edges
+  Slytherin: 0 cross-house edges
+Without Harry: 5 components, sizes [26, 5, 2, 2, 1]
+  cut off: Cho Chang, Cedric Diggory
+  cut off: Colin Creevey, Dennis Creevey
+  cut off: Marcus Flint, Draco Malfoy, Pansy Parkinson, Gregory Goyle, Vincent Crabbe
+  cut off: Padma Patil
+Demelza Robins' neighbours: Ginny Weasley, Harry James Potter, Jimmy Peakes
+Jimmy Peakes' neighbours: Demelza Robins
+Pairs linked in all 6 books: Fred Weasley - Harry James Potter; Fred Weasley - George Weasley; Harry James Potter - Ronald Weasley; George Weasley - Harry James Potter; Harry James Potter - Hermione Granger; Harry James Potter - Neville Longbottom; Hermione Granger - Ronald Weasley; Neville Longbottom - Ronald Weasley

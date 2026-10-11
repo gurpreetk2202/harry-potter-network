@@ -1,0 +1,9 @@
+Nodes: 37
+Edges: 116
+Graph type: undirected
+Average degree: 6.270
+Average weighted degree: 13.892
+Network diameter: 4
+Average path length: 1.895
+Modularity (Louvain, weighted, resolution 1.0, randomize off): 0.271
+Number of communities: 5

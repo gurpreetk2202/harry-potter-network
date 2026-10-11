@@ -1,0 +1,38 @@
+Id,Label,house,degree,weighted_degree,betweenness,betweenness_norm,python_louvain_community,degree_rank,betweenness_rank
+25,Harry James Potter,Gryffindor,28,83,297.899,0.4729,0,1,1
+56,Ronald Weasley,Gryffindor,17,51,42.432,0.0674,1,2,2
+26,Hermione Granger,Gryffindor,15,41,21.929,0.0348,1,3,4
+19,Fred Weasley,Gryffindor,10,36,2.3,0.0037,2,4,11
+20,George Weasley,Gryffindor,10,34,2.3,0.0037,2,4,11
+21,Ginny Weasley,Gryffindor,9,22,10.973,0.0174,1,6,8
+29,Katie Bell,Gryffindor,9,21,1.25,0.002,2,6,13
+44,Neville Longbottom,Gryffindor,8,28,11.471,0.0182,1,8,7
+2,Alicia Spinnet,Gryffindor,8,20,0.0,0.0,2,8,16
+3,Angelina Johnson,Gryffindor,8,20,0.0,0.0,2,8,16
+45,Oliver Wood,Gryffindor,8,9,0.0,0.0,2,8,16
+11,Dean Thomas,Gryffindor,7,19,12.748,0.0202,1,12,5
+58,Seamus Finnigan,Gryffindor,7,19,12.748,0.0202,1,12,5
+61,Terry Boot,Ravenclaw,7,7,2.5,0.004,0,12,10
+4,Anthony Goldstein,Ravenclaw,6,6,0.0,0.0,0,15,16
+17,Ernie Macmillan,Hufflepuff,6,7,0.0,0.0,0,15,16
+24,Hannah Abbott,Hufflepuff,6,7,0.0,0.0,0,15,16
+28,Justin Finch-Fletchley,Hufflepuff,6,7,0.0,0.0,0,15,16
+60,Susan Bones,Hufflepuff,6,6,0.0,0.0,0,15,16
+35,Luna Lovegood,Ravenclaw,5,8,0.0,0.0,1,20,16
+14,Draco Malfoy,Slytherin,4,6,3.0,0.0048,3,21,9
+31,Lavender Brown,Gryffindor,4,5,1.2,0.0019,1,21,14
+50,Parvati Patil,Gryffindor,4,4,0.25,0.0004,1,21,15
+32,Leanne,Hufflepuff,4,4,0.0,0.0,1,21,16
+33,Lee Jordan,Gryffindor,4,7,0.0,0.0,2,21,16
+12,Demelza Robins,Gryffindor,3,3,30.0,0.0476,4,26,3
+23,Gregory Goyle,Slytherin,3,5,0.0,0.0,3,26,16
+49,Pansy Parkinson,Slytherin,3,3,0.0,0.0,3,26,16
+52,Percy Weasley,Gryffindor,3,8,0.0,0.0,0,26,16
+63,Vincent Crabbe,Slytherin,3,5,0.0,0.0,3,26,16
+7,Cedric Diggory,Hufflepuff,2,2,0.0,0.0,0,31,16
+8,Cho Chang,Ravenclaw,2,4,0.0,0.0,0,31,16
+9,Colin Creevey,Gryffindor,2,2,0.0,0.0,0,31,16
+13,Dennis Creevey,Gryffindor,2,2,0.0,0.0,0,31,16
+27,Jimmy Peakes,Gryffindor,1,1,0.0,0.0,4,35,16
+39,Marcus Flint,Slytherin,1,1,0.0,0.0,3,35,16
+48,Padma Patil,Ravenclaw,1,1,0.0,0.0,0,35,16

@@ -1,0 +1,12 @@
+PASS  degree           max difference = 0.0000
+PASS  weighted_degree  max difference = 0.0000
+PASS  betweenness      max difference = 0.0000
+INFO  communities: adjusted Rand index Gephi vs Python = 0.557 (1.0 = identical)
+python_louvain_community  0   1  2  3  4
+modularity_class                        
+0                         0   0  7  0  0
+1                         0   0  0  0  2
+2                         7  10  0  0  0
+3                         6   0  0  0  0
+4                         0   0  0  5  0
+Characters grouped differently by the two runs: Cedric Diggory, Cho Chang, Colin Creevey, Dennis Creevey, Harry James Potter, Padma Patil, Percy Weasley
