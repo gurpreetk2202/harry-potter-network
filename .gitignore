@@ -1,0 +1,5 @@
+# Gephi Toolkit jar is ~83 MB; run.sh downloads it
+gephi_toolkit/*.jar
+gephi_toolkit/build/
+__pycache__/
+*.pyc
